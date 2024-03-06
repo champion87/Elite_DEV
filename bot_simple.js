@@ -61,6 +61,11 @@ function handle_message(message, number) {
 }
 
 client.initialize();
+
+// IMPORTANT!!!
+
+// how to install: install node js from google, than run npm install whatsapp-web.js qrcode-terminal to install the package
+// how to run: run in cmd: "node bot_simple.js", and than ask jaks to scan the barcode.
 // todo: add more fitures
 // todo: fix bug (there are small bugs in "my name is"
 // todo: add option to to not scan everey time (you need zkas in order to scan)
