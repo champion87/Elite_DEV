@@ -44,7 +44,8 @@ function handle_message(message, number) {
   // gets the message and who sent it and return the message to response.
   // if you want to send nothing return None
   // if tou want to save sate save it in the varieble database using add_to_database and get_from_database (see how we handled "my name is")
-  
+  // to add more fitures edit this function!!
+    
   var flag = false;
   if(message.toLowerCase().startsWith("my name is")) {
     add_to_database(number, "name", message.slice("my name is".length, number.length));
@@ -61,5 +62,5 @@ function handle_message(message, number) {
 
 client.initialize();
 // todo: add more fitures
-// todo: fix bug
+// todo: fix bug (there are small bugs in "my name is"
 // todo: add option to to not scan everey time (you need zkas in order to scan)
