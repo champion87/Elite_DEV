@@ -9,3 +9,6 @@ We've acomplished the following interface:
  - We have a basic 'print links' feature implemented at branch lidor_links.
    one can add more links to the 'links' array.
  - We have 'furtune' feature on brance 'furtune'. Unchecked.
+
+ P.S.
+ Read the comments in the code!!!!!
